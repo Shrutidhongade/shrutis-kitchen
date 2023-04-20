@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-family: 'Righteous', cursive;
+}
+
+.nav-link{
+    font-family: 'Changa', sans-serif;
+   
+}
+
+.carousel-item img{
+    height:auto;
+    
+}
+
+.thought h2{
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.text{
+    font-size: 2rem;
+}
+
+.container{
+    margin-top: 1rem;
+    text-align: center;
+   
+}
+.container img{
+    border-radius: 200px;
+}
+.container h2,p{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Changa', sans-serif;
+}
+.footer{
+    background-color: #2b3035;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+.footer h6{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width:600px){
+    .carousel-item img{
+        height:40vh;
+    }
+    
+}
